@@ -1,18 +1,21 @@
-.holder
-{
-    display: flex;
-    justify-content: center;
-	align-items:center;
-	flex-wrap:wrap;
-	width:100vw;
-	height:100vh;
+.holder{
+    width:100vw;
+    height:100vh;
+    background-color: bisque;
+    border:2px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;  
 }
-
-.holder>.item-1
-{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    overflow:hidden;
-	
+.items{
+    height:10vh;
+    width:10vw;
+    background-color: aqua;
+    border: 2px solid black;
+    margin:10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
 }
+/* Your CSS Code here. */
